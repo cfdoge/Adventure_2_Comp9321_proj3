@@ -1,9 +1,9 @@
 # Adventure-2
 
-##JSON files structure:
+## JSON files structure:
 
-  ###1.Landlords:
-  '''
+### 1.Landlords:
+```
     req = {
         "date" : "20181111",
         "location": {
@@ -26,8 +26,9 @@
         }
 	  }
   
-  '''
-  ###2.Users:
+```
+### 2.Users:
+```
     req = {
       "location": {
             "suburb" : "Kingsford",
@@ -37,11 +38,12 @@
       "room_type" : "private room",
       "price" : "500";
     }
-    
+```
    
    
    
-  ###3.Specialists:
+### 3.Specialists:
+```
     req = {
       "location": {
             "suburb" : "Kingsford",
@@ -49,5 +51,5 @@
        },
        "capacity" : "10"
     };
-	
+```	
 		
